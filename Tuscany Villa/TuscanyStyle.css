@@ -1,0 +1,33 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat() (3, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+       section.grid-item-1 {
+        background-color:darkgrey;
+        height: 50px;
+       }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+    margin-right: 5%;
+}
+
+    li a {
+        text-decoration: none;
+        color: antiquewhite;
+    }
+
+ #logo{
+     margin-right: 650px;
+ }   

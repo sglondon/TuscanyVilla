@@ -1,14 +1,13 @@
 ﻿.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
-    grid-template-rows: repeat(13, 1fr);
+    grid-template-rows: 50px 300px  75px repeat(3, 200px) ;
 }
 
-       section.grid-item-1 {
-        grid-column: 1 / span 4;
-        background-color:darkgrey;
-        height: 50px;
-       }
+section.grid-item-1 {
+grid-column: 1 / span 4;
+background-color:darkslategray;
+}
 
 ul {
     list-style-type: none;
@@ -34,18 +33,35 @@ li {
  }
 
 section.grid-item-2 {
-    grid-column: 1 span 3;
-    margin-left: 1px;
-    height: 50px;
-    margin-top: 0px;
-    width: 348px;
-    margin-right: 0px;
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+    grid-column: 1 / span 3;
 }
 
 section.grid-item-3 {
+    background-image: url('images/Versilia.jpg');
+    background-size: cover;
     grid-column: 4;
-    margin-left: -1px;
-    height: 50px;
-    margin-top: 0px;
-    width: 400px;
 }
+
+section.grid-item-4 {
+    grid-column: 1 / span 4;
+    background-color: darkslategray;
+}
+
+section.grid-item-5 {
+    
+    grid-column: 1 / span 3;
+    background-color: white;
+    color: slategray;
+    text-align: left;
+    margin-top: 5px;
+}
+
+section.grid-item-6 {
+    background-image: url('images/italy-mountain-villa.jpeg');
+    background-size: cover;
+    grid-column: 4;
+    margin-top: 30px;
+    margin-right: 50px;
+}  

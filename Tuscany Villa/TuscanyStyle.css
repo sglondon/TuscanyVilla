@@ -1,10 +1,11 @@
 ﻿.container {
     display: grid;
-    grid-template-columns: repeat() (3, 1fr);
+    grid-template-columns: repeat(4, 1fr) ;
     grid-template-rows: repeat(13, 1fr);
 }
 
        section.grid-item-1 {
+        grid-column: 1 / span 4;
         background-color:darkgrey;
         height: 50px;
        }
@@ -30,4 +31,21 @@ li {
 
  #logo{
      margin-right: 650px;
- }   
+ }
+
+section.grid-item-2 {
+    grid-column: 1 span 3;
+    margin-left: 1px;
+    height: 50px;
+    margin-top: 0px;
+    width: 348px;
+    margin-right: 0px;
+}
+
+section.grid-item-3 {
+    grid-column: 4;
+    margin-left: -1px;
+    height: 50px;
+    margin-top: 0px;
+    width: 400px;
+}

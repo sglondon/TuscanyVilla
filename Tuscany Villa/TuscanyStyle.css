@@ -1,12 +1,12 @@
 ﻿.container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr) ;
-    grid-template-rows: 50px 300px  100px repeat(3, 200px) repeat(3,100px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 300px 100px repeat(3, 250px) 100px repeat(3,300px) 150px 200px 150px 200px 150px
 }
 
 section.grid-item-1 {
-grid-column: 1 / span 4;
-background-color:darkslategray;
+    grid-column: 1 / span 3;
+    background-color: darkslategray;
 }
 
 ul {
@@ -14,7 +14,6 @@ ul {
     margin: 0;
     padding: 0;
     margin-left: 5%;
-
     margin-top: 20px;
 }
 
@@ -28,68 +27,320 @@ li {
         color: antiquewhite;
     }
 
- #logo{
-     margin-right: 650px;
- }
+#logo {
+    margin-right: 600px;
+}
 
 section.grid-item-2 {
     background-image: url('images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
 }
 
 section.grid-item-3 {
     background-image: url('images/Versilia.jpg');
     background-size: cover;
-    grid-column: 4;
+    grid-column: 3;
 }
 
 section.grid-item-4 {
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 3;
     background-color: darkslategray;
 }
 
 section.grid-item-5 {
-    
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     background-color: white;
     color: slategray;
     text-align: left;
     margin-top: 5px;
+    margin-left: 5px;
 }
 
 section.grid-item-6 {
+    grid-column: 3;
     background-image: url('images/italy-mountain-villa.jpeg');
     background-size: cover;
-    grid-column: 4;
     margin-top: 30px;
     margin-right: 50px;
-}  
+    margin-bottom: 15px;
+}
+
+
 
 section.grid-item-7 {
-grid-column: 2/ span 3;
-background-color: darkslategray;
-margin-right: 50px;
-
-color: white;
-text-align: left;
-
+    grid-column: 2 / span 2;
+    background-color: slategray;
 }
 
 section.grid-item-8 {
-    grid-row: 5;
     grid-column: 1;
     background-image: url('images/modern-villa.jpeg');
     background-size: cover;
-    margin-top: 0px;
-    
+    background-color: darkslategray;
+    grid-row: 5;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
-.jumbotron h1{
+section.grid-item-9 {
+    grid-column: 1 / span 2;
+    background-color: white;
+    color: slategray;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section.grid-item-10 {
+    grid-column: 3;
+    background-image: url('images/tuscany-grape-field-nature-51947.jpeg');
+    background-size: cover;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+section.grid-item-11 {
+    grid-column: 1 / span 3;
+    background-color: darkslategray;
+}
+
+section.grid-item-12 {
+    grid-column: 1;
+    background-image: url('images/3b-348x348.jpg');
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+section.grid-item-13 {
+    grid-column: 3;
+    background-image: url('images/42-348x348.jpg');
+    background-size: cover;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+section.grid-item-14 {
+    grid-row: 8;
+    grid-column: 2;
+    background-color: white;
+    text-align: center;
+    color: slategray;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+section.grid-item-15 {
+    grid-column: 2;
+    background-image: url('images/314-348x348.jpg');
+    background-size: cover;
+}
+
+section.grid-item-16 {
+    grid-column: 1;
+    grid-row: 9;
+    margin-top: 10px;
+    text-align: center;
+    color: slategrey;
+}
+
+section.grid-item-17 {
+    grid-column: 3;
+    grid-row: 9;
+    margin-top: 10px;
+    text-align: center;
+    color: slategrey;
+}
+
+section.grid-item-18 {
+    grid-column: 1;
+    background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+section.grid-item-19 {
+    grid-column: 3;
+    background-image: url('images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+section.grid-item-20 {
+    grid-row: 10;
+    grid-column: 2;
+    background-color: white;
+    text-align: center;
+    color: slategray;
+    margin-top: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+section.grid-item-21 {
+    grid-column: 1 / span 3;
+    background-color: darkslategray;
+    margin-top: 25px;
+}
+
+section.grid-item-22 {
+    grid-column: 1 / span 3;
+    background-color: darkslategray;
+}
+
+section.grid-item-23 {
+    grid-column: 3;
+    margin-top: 15px;
+    background: white;
+}
+
+section.grid-item-24 {
+    grid-column: 1 / span 2;
+    grid-row: 14;
+    margin-left: 50px;
+}
+
+section.grid-item-25 {
+    grid-column: 1/ span 3;
+    background-color: darkslategray;
+}
+
+
+
+.resize {
+    height: 50px;
+    width: 25px;
+}
+
+.carousel-wrapper {
+    grid-column: 1 / span 3;
+    grid-row: 12;
+    height: 200px;
+    position: relative;
+    width: 1285px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+}
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    background: url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    background: url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+
+
+
+button {
+    grid-column: 2;
+    background: slategray;
+    color: white;
+}
+
+button1 {
+    grid-column: 2;
+    margin-left: 25px;
+    background: white;
+    color: darkslategray;
+}
+
+button2 {
+    grid-column: 1;
+    background: slategray;
+    color: white;
+}
+
+button3 {
+    grid-column: 1;
+    background: slategray;
+    color: white;
+}
+
+
+
+.jumbotron h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    font-weight:normal;
+    font-weight: normal;
     text-align: center;
     margin-left: 20px;
     margin-top: 30px;
@@ -104,8 +355,6 @@ section.grid-item-8 {
     font-size: 20px;
     text-align: center;
     margin-left: 20px;
-    
-    
 }
 
 .jumbotron2 h1 {
@@ -127,4 +376,83 @@ section.grid-item-8 {
     font-size: 15px;
     text-align: center;
     margin-left: 20px;
+}
+
+.jumbotron3 h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.jumbotron4 p {
+    margin-top: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.jumbotron5 p {
+    margin-top: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+}
+
+.jumbotron5 h1 {
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.jumbotron5 h4 {
+    grid-column: 1 /span 3;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.jumbotron6 {
+    grid-column: 1;
+    color: white;
+    background-color: darkslategray;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.jumbotron7 {
+    grid-column: 3;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.jumbotron8 {
+    grid-column: 1;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
